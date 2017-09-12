@@ -1,0 +1,163 @@
+body {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  font-size: 22px;
+}
+/*
+div {
+  border: 1px solid white;
+}
+*/
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0px;
+  left: 0px;
+}
+
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#header .logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+
+#navigation .menu {
+  padding-left: 5px;
+  margin-right: 25px;
+}
+
+.menu a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 69px;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image {
+  text-align: center;
+  background-color: black;
+}
+
+.image-2 {
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.image-2 span {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.image h2, .image h4 {
+  margin: 20px;
+}
+
+#size {
+  width: 100%
+}
+
+h2, h4 {
+  text-align: center;
+}
+
+#teas {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: 0 100px;
+}
+
+#teas .month {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+#teas .title h2, #teas .title h4{
+  margin: 20px;
+}
+
+#location {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1000px;
+  background-size: cover;
+  margin: 0 100px;
+}
+
+.location-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#location h2 {
+  margin-bottom: 15px;
+}
+
+.address {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 1;
+  margin: 0 20px;
+}
+
+#contact {
+  height: 200px;
+  width: 1000px;
+  margin: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h5 {
+  margin: 20px;
+}
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
